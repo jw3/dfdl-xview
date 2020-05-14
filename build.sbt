@@ -1,4 +1,4 @@
-name := "dfdl-xview"
+name := "dfdl-xview-labels"
 organization := "com.ctc"
 scalaVersion := "2.12.11"
 git.useGitDescribe := true
@@ -17,8 +17,10 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies := Seq(
-  "org.apache.daffodil" %% "daffodil-tdml-processor" % "2.6.0" % "test",
-  "com.novocode" % "junit-interface" % "0.11" % "test"
+  "org.apache.daffodil" %% "daffodil-sapi" % "latest.integration",
+  "org.apache.daffodil" %% "daffodil-tdml-processor" % "2.6.0" % Test,
+  "com.novocode" % "junit-interface" % "0.11" % Test
+
 )
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
