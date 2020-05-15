@@ -1,0 +1,139 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "bounds_imcoords": "1545,-208,1755,121",
+        "edited_by": "wwkimberlypinero",
+        "cat_id": "104001002C0AB900",
+        "type_id": 73,
+        "ingest_time": "2017/08/18 20:56:35.666+00",
+        "index_right": 27,
+        "image_id": "20.tif",
+        "point_geom": "0101000020E6100000CDF9C3C7BD9D4240E01AABE3579E3340",
+        "feature_id": 800465,
+        "grid_file": "Grid67.shp"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.23202799817489,
+              19.619042056516935
+            ],
+            [
+              37.23202799817489,
+              19.618015112965633
+            ],
+            [
+              37.232680274170264,
+              19.618015112965633
+            ],
+            [
+              37.232680274170264,
+              19.619042056516935
+            ],
+            [
+              37.23202799817489,
+              19.619042056516935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bounds_imcoords": "1800,-10,1878,32",
+        "edited_by": "wwkimberlypinero",
+        "cat_id": "104001002C0AB900",
+        "type_id": 73,
+        "ingest_time": "2017/08/18 20:56:35.666+00",
+        "index_right": 27,
+        "image_id": "20.tif",
+        "point_geom": "0101000020E6100000037ED317D19D4240B0A08BBE4C9E3340",
+        "feature_id": 800469,
+        "grid_file": "Grid67.shp"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.23282237715497,
+              19.618425452308404
+            ],
+            [
+              37.23282237715497,
+              19.61829159841332
+            ],
+            [
+              37.2330646510961,
+              19.61829159841332
+            ],
+            [
+              37.2330646510961,
+              19.618425452308404
+            ],
+            [
+              37.23282237715497,
+              19.618425452308404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "bounds_imcoords": "1497,-11,1523,22",
+        "edited_by": "wwkimberlypinero",
+        "cat_id": "104001002C0AB900",
+        "type_id": 73,
+        "ingest_time": "2017/08/18 20:58:35.693+00",
+        "index_right": 27,
+        "image_id": "20.tif",
+        "point_geom": "0101000020E6100000AE61B077AF9D4240D56578F74D9E3340",
+        "feature_id": 800522,
+        "grid_file": "Grid67.shp"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.23187657696169,
+              19.618429840958832
+            ],
+            [
+              37.23187657696169,
+              19.618324513315894
+            ],
+            [
+              37.231958111461104,
+              19.618324513315894
+            ],
+            [
+              37.231958111461104,
+              19.618429840958832
+            ],
+            [
+              37.23187657696169,
+              19.618429840958832
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+,
+  "name": "U-LIMDIS_xView_Final"
+}
